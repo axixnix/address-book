@@ -1,0 +1,26 @@
+.kAddform{
+    display: none;
+}
+.container{
+    display: block;
+    
+}
+
+
+.editdone{
+    visibility: hidden;
+}
+
+.displayOnNameClick{
+    display: block;
+}
+
+
+
+.forms{
+    display:block;
+}
+.addbook{
+ 
+ /*display:none;*/
+}

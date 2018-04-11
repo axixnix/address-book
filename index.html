@@ -1,0 +1,47 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Address book</Address></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="addressbook.css" />
+    <script src="addressbook.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+  
+</head>
+<body>
+    <div class='container'>
+        <div class="title">
+            <h1>Banji's addressbook</h1>
+        </div>
+
+        <div class="kAdd"><button id='kAdd'>+ADD</button></div>
+
+        <div class='kAddForm'>
+            <form class="forms">
+                <label for='fullname'>Name</label><input type="text" id="fullName" class="formFields"><br>
+                <label for="phone">Phone number</label><input type="tel" id="phone" class="formFields"><br>
+                <label for='address'>Address</label><textarea name="address" id="address" cols="30" rows="5" class="formFields"></textarea><br>
+                <label for='email'>Email Address</label><input type="email" id="email" class="formFields"><br>
+                <br><br>
+                <button class ="addNow" id="add">Add now</button><button id="editdone" class="editdone">save edit</button><button id="cancel">Cancel</button>
+            </form>
+        </div>
+
+        <div class="addbook">
+                <!--this should be for displaying the contacts-->
+        </div>
+
+        <div class="displayOnNameClick">
+            <!--this should be for displaying a contact after its name is clicked-->
+        </div>
+
+
+    </div>
+    
+    
+   
+    
+</body>
+</html>
